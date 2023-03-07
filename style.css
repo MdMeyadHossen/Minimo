@@ -21,7 +21,6 @@ color:  #8b8989;
     width: 20%;
     float: left;
 }
-.logo a
 .logo a img {}
 nav{
     width: 80%;
@@ -124,43 +123,71 @@ nav ul li a {
     padding: 0 25px;
     color: #594b4bc2;
 }
-.newsletter{
-    min-height: 290px;
-    background-color: #f0f0f0;
+.blog_button {
+	margin: 130px 0 130px;
+	text-align: center;
 }
-.newsletter h3 {
-    text-align: center;
-    padding-top: 80px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 400px;
-    font-size: 30px;
-    color: #594b4bc2;
+.l_button {
+	width: 165px;
+	height: 60px;
+	background: transparent;
+	border: 1px solid #626262;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;
+	cursor: pointer;
+	transition: 0.33s;
 }
-.email-field {
-    margin-top: 80px;
-    text-align: center;
+.l_button:hover {
+	background: #626262;
+	color: #f4f4f4;
 }
-.email {
-    padding: 0px 160px 10px 0px;
-    border: none;
-    border-bottom: 1px solid #333333;
-    background-color: #f0f0f0;
+/*news start*/
+.news {	
+	background: #f0f0f0;
+	padding: 70px 0;
+	margin-bottom: 20px;
 }
-.button {
-    margin: 130px 0;
-    text-align: center;
+.signup {
+	text-align: center;
+
 }
-.button button {
-    width: 165px;
-    height: 60px;
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    font-weight: 400px;
-    color: #626262;
-    background-color: transparent;
-    border: 1px solid #626262;
-    cursor: pointer;
+.s_h1 {
+	color: #333333;
+	margin: 0 0 70px;
 }
+.s_form {
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+}
+.s_form input {
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: none;
+}
+.s_form button {
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top:10px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+/*news end*/
 footer{
     background-color: #b2b1b11c;
 }
